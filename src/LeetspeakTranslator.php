@@ -8,7 +8,6 @@
             $results_array = array();
 
             foreach($letter_array as $letter){
-
                 if(($letter == 's' || $letter == 'S') && ($letter != $letter_array[0])) {
                     array_push($results_array, 'z');
                 } elseif($letter == 'I') {

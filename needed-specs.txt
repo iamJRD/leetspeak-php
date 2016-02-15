@@ -7,4 +7,4 @@
 4. change capital "i" to "1"
     DONE
 5. change "s" to "z" UNLESS first letter of word
-    
+    DONE
