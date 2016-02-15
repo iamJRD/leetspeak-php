@@ -42,6 +42,19 @@
             // Assert
             $this->assertEquals(array("d","0","g"), $result);
         }
+
+        function test_checkForUpperI()
+        {
+            // Arrange
+            $new_LeetspeakTranslator = new LeetspeakTranslator;
+            $input = "It";
+
+            // Act
+            $result = $new_LeetspeakTranslator->translate($input);
+
+            // Assert
+            $this->assertEquals(array("1", "t"), $result);
+        }
     }
 
 ?>

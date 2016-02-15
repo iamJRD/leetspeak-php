@@ -8,7 +8,9 @@
             $results_array = array();
             foreach($letter_array as $letter){
 
-                if($letter == 'e' || $letter == 'E') {
+                if($letter == 'I') {
+                    array_push($results_array, '1');
+                } elseif($letter == 'e' || $letter == 'E') {
                     array_push($results_array, '3');
                 } elseif($letter == 'o' || $letter == 'O') {
                     array_push($results_array, '0');
