@@ -55,6 +55,19 @@
             // Assert
             $this->assertEquals(array("1", "t"), $result);
         }
+
+        function test_checkForS()
+        {
+            // Arrange
+            $new_LeetspeakTranslator = new LeetspeakTranslator;
+            $input = "sat";
+
+            // Act
+            $result = $new_LeetspeakTranslator->translate($input);
+
+            // Assert
+            $this->assertEquals(array("s", "a", "t"), $result);
+        }
     }
 
 ?>

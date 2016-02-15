@@ -6,9 +6,12 @@
         {
             $letter_array = str_split($user_string, 1);
             $results_array = array();
+
             foreach($letter_array as $letter){
 
-                if($letter == 'I') {
+                if(($letter == 's' || $letter == 'S') && ($letter != $letter_array[0])) {
+                    array_push($results_array, 'z');
+                } elseif($letter == 'I') {
                     array_push($results_array, '1');
                 } elseif($letter == 'e' || $letter == 'E') {
                     array_push($results_array, '3');

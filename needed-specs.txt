@@ -3,7 +3,8 @@
 2. change "e" to "3"
     DONE
 3. change "o" to "0"
-
+    DONE
 4. change capital "i" to "1"
-
+    DONE
 5. change "s" to "z" UNLESS first letter of word
+    
