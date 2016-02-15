@@ -1,0 +1,9 @@
+1. convert string to array
+
+2. change "e" to "3"
+
+3. change "o" to "0"
+
+4. change capital "i" to "1"
+
+5. change "s" to "z" UNLESS first letter of word
