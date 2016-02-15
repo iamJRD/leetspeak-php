@@ -8,13 +8,13 @@
         {
             // Arrange
             $new_LeetspeakTranslator = new LeetspeakTranslator;
-            $input = "hello";
+            $input = "cat";
 
             // Act
             $result = $new_LeetspeakTranslator->translate($input);
 
             // Assert
-            $this->assertEquals(array("h","3","l","l","o"), $result);
+            $this->assertEquals(array("c", "a", "t"), $result);
         }
 
         function test_checkForE()
@@ -28,6 +28,19 @@
 
             // Assert
             $this->assertEquals(array("h", "3", "y"), $result);
+        }
+
+        function test_checkForO()
+        {
+            // Arrange
+            $new_LeetspeakTranslator = new LeetspeakTranslator;
+            $input = "dog";
+
+            // Act
+            $result = $new_LeetspeakTranslator->translate($input);
+
+            // Assert
+            $this->assertEquals(array("d","0","g"), $result);
         }
     }
 

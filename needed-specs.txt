@@ -1,7 +1,7 @@
 1. convert string to array
     DONE
 2. change "e" to "3"
-
+    DONE
 3. change "o" to "0"
 
 4. change capital "i" to "1"
