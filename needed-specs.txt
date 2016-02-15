@@ -1,5 +1,5 @@
 1. convert string to array
-
+    DONE
 2. change "e" to "3"
 
 3. change "o" to "0"

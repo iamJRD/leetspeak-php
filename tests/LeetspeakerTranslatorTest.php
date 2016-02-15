@@ -14,7 +14,20 @@
             $result = $new_LeetspeakTranslator->translate($input);
 
             // Assert
-            $this->assertEquals(array("h","e","l","l","o"), $result);
+            $this->assertEquals(array("h","3","l","l","o"), $result);
+        }
+
+        function test_checkForE()
+        {
+            // Arrange
+            $new_LeetspeakTranslator = new LeetspeakTranslator;
+            $input = "hey";
+
+            // Act
+            $result = $new_LeetspeakTranslator->translate($input);
+
+            // Assert
+            $this->assertEquals(array("h", "3", "y"), $result);
         }
     }
 
