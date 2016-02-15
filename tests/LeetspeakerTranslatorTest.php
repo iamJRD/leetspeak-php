@@ -14,7 +14,7 @@
             $result = $new_LeetspeakTranslator->translate($input);
 
             // Assert
-            $this->assertEquals(array("c", "a", "t"), $result);
+            $this->assertEquals('cat', $result);
         }
 
         function test_checkForE()
@@ -27,7 +27,7 @@
             $result = $new_LeetspeakTranslator->translate($input);
 
             // Assert
-            $this->assertEquals(array("h", "3", "y"), $result);
+            $this->assertEquals('h3y', $result);
         }
 
         function test_checkForO()
@@ -40,7 +40,7 @@
             $result = $new_LeetspeakTranslator->translate($input);
 
             // Assert
-            $this->assertEquals(array("d","0","g"), $result);
+            $this->assertEquals('d0g', $result);
         }
 
         function test_checkForUpperI()
@@ -53,7 +53,7 @@
             $result = $new_LeetspeakTranslator->translate($input);
 
             // Assert
-            $this->assertEquals(array("1", "t"), $result);
+            $this->assertEquals('1t', $result);
         }
 
         function test_checkForS()
@@ -66,7 +66,7 @@
             $result = $new_LeetspeakTranslator->translate($input);
 
             // Assert
-            $this->assertEquals(array("s", "a", "t"), $result);
+            $this->assertEquals('sat', $result);
         }
     }
 

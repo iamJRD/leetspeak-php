@@ -20,7 +20,8 @@
                     array_push($results_array, $letter);
                 }
             }
-            return $results_array;
+            $translated = implode($results_array);
+            return $translated;
         }
     }
 
